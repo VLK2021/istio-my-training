@@ -1,0 +1,24 @@
+.layout {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+.HedOutFoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideBar {
+    width: 15%;
+    min-height: 100vh;
+    background: lawngreen;
+}
+
+.HedOutFoot {
+    width: 85%;
+    min-height: 100vh;
+    background: deepskyblue;
+}
