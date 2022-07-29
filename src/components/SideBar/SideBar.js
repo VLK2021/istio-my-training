@@ -4,6 +4,9 @@ import './SideBarStyle.css';
 import {Link, NavLink} from "react-router-dom";
 
 const SideBar = () => {
+
+
+
     return (
         <div className={'sideBar'}>
             <h1>Menu</h1>
@@ -17,6 +20,7 @@ const SideBar = () => {
 
 
             <select name="name" id="nm">
+                <option value="val1"><Link to={'#'}>посилання</Link></option>
                 <option value="val1"><Link to={'#'}>посилання</Link></option>
                 <option value="val1"><Link to={'#'}>посилання</Link></option>
                 <option value="val1"><Link to={'#'}>посилання</Link></option>
